@@ -1,5 +1,5 @@
 html{
-    background-color:black;
+    background-color:white;
     color:black;
 }
 
@@ -32,11 +32,16 @@ h3 + p{
 
 h2{
     text-transform: uppercase;
-    border-radius:50%;
+    border-bottom:2px solid #000;
 }
 
 header > p{
     font-size: 1.25rem;
+} 
+
+.profile-pic{
+    width:150px;
+    border-radius:50%;
 }
 
 a[rel="external"]{
